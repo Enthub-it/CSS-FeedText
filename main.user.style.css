@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           enthub.it
+@namespace      https://github.com/Enthub-it/CSS-FeedText
+@homepageURL    https://github.com/Enthub-it/CSS-FeedText
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+@updateURL      https://a
+==/UserStyle== */
+
+@-moz-document domain("enthub.it") {
+  /* Правки текстов статей */
+  
+  article .content-wrapper.break-words {
+    word-break: break-word;
+    text-align: justify;
+    hyphens: auto;
+    
+    p+p {
+      text-indent: 1.5em;
+    }
+  }
+}
